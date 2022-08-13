@@ -1,0 +1,23 @@
+{
+  "name": "js-calculator",
+  "version": "1.0.0",
+  "description": "<br/> <br/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDWoo/js-calculator-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SDWoo/js-calculator-test/issues"
+  },
+  "homepage": "https://github.com/SDWoo/js-calculator-test#readme",
+  "devDependencies": {
+    "cypress": "^10.4.0"
+  }
+}
