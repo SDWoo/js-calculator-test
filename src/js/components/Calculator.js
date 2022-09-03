@@ -45,7 +45,10 @@ export default class Calculator {
   }
 
   notify(nextState) {
-    this.subscribes.forEach((fn) => fn(nextState));
+    this.subscribes.forEach((fn) => {
+      console.log(fn, nextState);
+      fn(nextState);
+    });
   }
 
   validateEditDigit(newInput) {
@@ -81,7 +84,6 @@ export default class Calculator {
 
   updateDigits(digit) {
     const { prevType } = this.state;
-    console.log(digit);
     if (prevType === 'digit') {
       this.editDigit(digit);
       return;
